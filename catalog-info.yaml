@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1beta1
+kind: Component
+metadata:
+  name: newman
+  namespace: the-economist
+  title: partner-api
+  description: "Forked repository from https://github.com/postmanlabs/newman"
