@@ -1,7 +1,25 @@
-apiVersion: backstage.io/v1beta1
+apiVersion: backstage.io/v1alpha1
+# This is the name of the component that will show up in the sidebar
 kind: Component
 metadata:
   name: newman
-  namespace: the-economist
-  title: partner-api
-  description: "Forked repository from https://github.com/postmanlabs/newman"
+  title: newman
+  description: Newman is a command-line collection runner for Postman. It allows you to effortlessly run and test a Postman collection directly from the command-line.
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    # circleci.com/project-slug: NA 
+    # newrelic.com/dashboard-guid: NA
+    # snyk.io/org-name: NA
+    # snyk.io/project-ids: NA
+spec:
+  type: service
+  owner: group:default/unknown
+  lifecycle: Production
+   #system: NA
+   # providesApis :   
+     # 
+   # consumesApis : 
+     #
+---
+
+  
